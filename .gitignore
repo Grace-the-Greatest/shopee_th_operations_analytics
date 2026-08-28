@@ -216,3 +216,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Raw source dataset (kaggle public data, do not upload)
+Data/
