@@ -1,0 +1,6 @@
+category,order_items,avg_delivery_days,median_delivery_days,p90_delivery_days
+Beauty,13946,1.43,1.0,3.0
+Electronics,55009,1.43,1.0,3.0
+Fashion,27683,1.44,1.0,3.0
+Groceries,75981,1.44,1.0,3.0
+Home,187568,1.43,1.0,3.0

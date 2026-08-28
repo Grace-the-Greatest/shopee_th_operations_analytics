@@ -1,0 +1,7 @@
+courier_name,order_items,avg_delivery_days,median_delivery_days,p90_delivery_days
+SCG Express,10707,1.41,1.0,3.0
+Shopee Xpress,36159,1.42,1.0,3.0
+Flash Express,72253,1.43,1.0,3.0
+J&T Express,107614,1.43,1.0,3.0
+Kerry Express,126223,1.44,1.0,3.0
+Best Express,7231,1.45,1.0,3.0

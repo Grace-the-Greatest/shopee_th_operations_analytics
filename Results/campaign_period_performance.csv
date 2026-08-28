@@ -1,0 +1,3 @@
+is_campaign_period,total_gmv,total_net_revenue,total_discount_cost,orders,items_sold,customers,avg_order_value,net_revenue_rate_pct,period
+False,2843403283.88,2640634743.5,0.0,227480,460424,54844,12499.57,92.87,Non-Campaign Period
+True,211897780.99,196691533.91,24475881.42,22569,45819,18553,9388.89,92.82,Campaign Period
