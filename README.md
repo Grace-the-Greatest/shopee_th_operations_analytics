@@ -9,7 +9,7 @@ An end-to-end e-commerce analytics project built on a synthetic Shopee Thailand 
 
 ## 1. Project Overview
 
-This project analyzes a simulated three-year Shopee Thailand operating environment from both the **customer** and **marketplace** perspectives.
+This project analyzes a simulated Shopee Thailand operating environment from both the **customer** and **marketplace** perspectives.
 
 The analysis connects front-end behavioral data with back-end transaction and operational data to answer key e-commerce business questions:
 
