@@ -204,7 +204,7 @@ How does delivery performance vary across courier providers?
 
 ### Customer Value
 
-Which customer segments contribute the most revenue, and which high-value customers may require reactivation?
+Which customer segments contribute the most GMV, and which high-value customers may require reactivation?
 
 ---
 
@@ -233,15 +233,17 @@ The dataset records page-level session activity rather than explicit button-clic
 Campaign performance is evaluated using:
 
 * Campaign GMV
-* Campaign net revenue
+* Net Transaction Value Proxy
 * Discount cost
 * Pre-campaign baseline GMV
 * Incremental GMV
 * GMV lift
-* Incremental net revenue
+* Incremental Net Transaction Value Proxy
 * Promotion ROI proxy
 
-The analysis uses a **30-day pre-campaign matched baseline** for the same campaign products.
+The analysis uses a **30-day pre-campaign matched baseline** for the same campaign products.The project defines a Net Transaction Value Proxy as:
+Net Transaction Value Proxy = Line Total − Commission Amount − Maintenance Amount
+This is a project-level analytical proxy rather than a formal financial accounting measure.
 
 > **Note:** Promotion ROI is a proxy metric rather than full marketing ROI because advertising and other campaign operating costs are not available in the dataset.
 
@@ -264,8 +266,8 @@ Completed transactions are used to evaluate:
 
 * GMV
 * GMV contribution
-* Platform net revenue
-* Net revenue rate
+* Net Transaction Value Proxy
+* Net Transaction Value Rate
 * Order volume
 * Items sold
 * Seller productivity
@@ -367,7 +369,7 @@ Company sellers generate approximately **13.1% higher average GMV per seller** t
 
 The largest value concentration is observed among high-value segments:
 
-| Segment    | User Share | Revenue Share |
+| Segment    | User Share |     GMV Share |
 | ---------- | ---------: | ------------: |
 | Regular    |     55.92% |        46.90% |
 | Champions  |     14.57% |        28.43% |
@@ -542,6 +544,7 @@ This project uses a **100% synthetic dataset**. The data is designed to simulate
 Additional limitations include:
 
 * Campaign ROI is a proxy because advertising and operational campaign costs are unavailable.
+* The Net Transaction Value Proxy is a project-defined analytical metric, not a formal platform revenue or accounting measure.
 * Funnel analysis is based on page-level session activities rather than explicit clickstream events.
 * `Cart Visit` should not be interpreted as an explicit "Add to Cart" click.
 * Cohort metrics measure cumulative purchase behavior rather than traditional Day-N active retention.
