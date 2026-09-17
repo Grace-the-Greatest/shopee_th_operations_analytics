@@ -241,7 +241,9 @@ Campaign performance is evaluated using:
 * Incremental Net Transaction Value Proxy
 * Promotion ROI proxy
 
-The analysis uses a **30-day pre-campaign matched baseline** for the same campaign products.The project defines a Net Transaction Value Proxy as:
+The analysis uses a **30-day pre-campaign matched baseline** for the same campaign products.
+
+The project defines a Net Transaction Value Proxy as:
 Net Transaction Value Proxy = Line Total − Commission Amount − Maintenance Amount
 This is a project-level analytical proxy rather than a formal financial accounting measure.
 
